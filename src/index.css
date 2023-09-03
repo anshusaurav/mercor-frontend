@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "AGRANDIRBOLD";
+  src: url("../public/fonts/Agrandir-GrandHeavy.otf");
+}
+@font-face {
+  font-family: "AGRANDIRLIGHT";
+  src: url("../public/fonts/Agrandir-TextBold.otf");
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
