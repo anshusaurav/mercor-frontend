@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 const navigation = [
   { name: "SIGN IN", href: "#" },
   { name: "LEGAL", href: "#" },
@@ -14,7 +14,6 @@ const navigation = [
 const logo = "/assets/logo.svg";
 const eye = "/assets/eye-button.png";
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <nav className="absolute top-0 left-0 right-0 z-50">
       <div className="mx-auto min-w-full px-16 md:px-12 sm: px-6">
@@ -70,7 +69,8 @@ function Header() {
               {navigation.map((navLink, index) => (
                 <a
                   href={navLink.href}
-                  className="text-gray-100 hover:bg-gray-700 hover:text-white rounded-md px-2 py-2 text-xs font-agrandirbold"
+                  key={index}
+                  className="text-gray-100 hover:bg-gray-700 hover:text-white rounded-md px-2 py-2 text-xxxs  lg:text-xxs font-agrandirbold"
                 >
                   {navLink.name}
                 </a>

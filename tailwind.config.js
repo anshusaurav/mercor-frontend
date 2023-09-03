@@ -30,6 +30,7 @@ module.exports = {
         widest: ".5em",
       },
       fontSize: {
+        xxxs: "0.4rem",
         xxs: "0.625rem",
         "12xl": "12.25rem",
       },
