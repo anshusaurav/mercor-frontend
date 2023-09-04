@@ -70,7 +70,7 @@ function Header() {
                 <a
                   href={navLink.href}
                   key={index}
-                  className="text-gray-100 hover:bg-gray-700 hover:text-white rounded-md px-2 py-2 text-xxxs  lg:text-xxs font-agrandirbold"
+                  className="text-gray-100 hover:bg-gray-700 hover:text-white rounded-md px-2 py-2 text-xxxs lg:text-xxs font-agrandirbold"
                 >
                   {navLink.name}
                 </a>

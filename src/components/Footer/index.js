@@ -1,11 +1,10 @@
 import React from "react";
 
-const logo = "/assets/logo.svg";
 function Footer() {
   return (
     <footer className="absolute bottom-0 left-0 right-0 z-50 overflow-hidden">
       <div className="mx-auto min-w-full px-16 md:px-12 sm: px-6">
-        <div className="block md:flex justify-between align-center text-white py-10">
+        <div className="block md:flex justify-between align-center text-white py-10 mt-24 md:mt-0">
           <div className="flex flex-1 justify-center md:justify-start items-center">
             <div className="flex justify-start">
               <div className="flex items-center border border-white w-auto rounded py-3 px-4 mx-2 bg-black">
